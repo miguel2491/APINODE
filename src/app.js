@@ -4,7 +4,7 @@ import cisaR from './routes/cisa.routes.js'
 
 const app = express()
 app.use(express.json())
-//app.use(loginR)
+app.use(loginR)
 app.use(cisaR)
 
 export default app
